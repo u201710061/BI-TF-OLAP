@@ -1,6 +1,6 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1be40939-cbee-4869-b407-2e9301364718" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
-  <ID>DIM Distribuidor 1</ID>
-  <Name>DIM Distribuidor 1</Name>
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="eaaa76b3-fc23-445c-b378-784073747c05" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DIM Videojuego 1</ID>
+  <Name>DIM Videojuego Reseña</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
   <Annotations>
@@ -42,26 +42,26 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="ae3dfc82-114b-4a0a-8fb1-bc00e268945c">
-    <DataSourceViewID>RESEÑAS STEAM</DataSourceViewID>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="424b267b-4405-4f31-a3e2-4447c5c65a0d">
+    <DataSourceViewID>BD STG STEAM RESEÑAS</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="89735b92-c7fe-4efb-a367-40cdd7ddf34f">
+  <ErrorConfiguration dwd:design-time-name="2b2d8f29-ba8d-4b27-a53d-aa34269474ce">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="fae5207c-569e-46e3-88b3-95bf504b9f2d">
-      <ID>Sk Distribuidor</ID>
-      <Name>Sk Distribuidor</Name>
+    <Attribute dwd:design-time-name="dba28584-da20-42c9-9ceb-8fe333e58a55">
+      <ID>Sk Videojuego</ID>
+      <Name>Sk Videojuego</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="65f2067d-4743-43ea-823d-ca68881a4775">
+        <KeyColumn dwd:design-time-name="2b89e158-19d3-43a6-9fa9-7cfc4cc8d274">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="197a587c-9f85-4e5b-a1d6-ebbf8135be93">
-            <TableID>dbo_DIM_Distribuidor</TableID>
-            <ColumnID>Sk_Distribuidor</ColumnID>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="eca92af2-3546-4f00-9aba-d1914863ed6f">
+            <TableID>dbo_DIM_Videojuego</TableID>
+            <ColumnID>Sk_Videojuego</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>

@@ -1,6 +1,6 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5eb2ff6d-c40a-44d2-a265-705f759ee1d2" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
-  <ID>DIM Genero 1</ID>
-  <Name>DIM Genero 1</Name>
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="22d2fe87-bc7b-47c1-a1ab-7c3abf210f54" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DIM Desarrollador 1</ID>
+  <Name>DIM Desarrollador Reseña</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
   <Annotations>
@@ -42,26 +42,26 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="167e83f4-c58f-4379-95af-4f72d5b597cf">
-    <DataSourceViewID>RESEÑAS STEAM</DataSourceViewID>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="97b1d49b-7ced-418e-a88d-3f1feb0d2ea4">
+    <DataSourceViewID>BD STG STEAM RESEÑAS</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="d4517b4e-d4bf-467b-9fdd-7b92b736fa35">
+  <ErrorConfiguration dwd:design-time-name="d14b72d0-3004-4cba-923a-1a1fad92dc51">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="cdc324cc-7cc4-4d44-9f9e-5a33ddd4b368">
-      <ID>Sk Genero</ID>
-      <Name>Sk Genero</Name>
+    <Attribute dwd:design-time-name="9485c02d-a168-4c92-8cbe-643d4be8686e">
+      <ID>Sk Desarrollador</ID>
+      <Name>Sk Desarrollador</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="08bffdac-43d7-4ca9-ac42-821bb3d6a9f2">
+        <KeyColumn dwd:design-time-name="23e115f2-202d-4dfa-b585-e5e552edfb7c">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="758420a3-fd34-4fed-a75c-7e01ce41bd94">
-            <TableID>dbo_DIM_Genero</TableID>
-            <ColumnID>Sk_Genero</ColumnID>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="691cc24d-51ce-4642-b0b4-ab7af61fa2a9">
+            <TableID>dbo_DIM_Desarrollador</TableID>
+            <ColumnID>Sk_Desarrollador</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>

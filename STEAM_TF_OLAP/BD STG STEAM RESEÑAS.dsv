@@ -1,0 +1,183 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fe5335a4-691a-4e17-a78a-f7c08e6cbf49" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>BD STG STEAM RESEÑAS</ID>
+  <Name>BD STG STEAM RESEÑAS</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>BD STG STEAM RESEÑAS</DataSourceID>
+  <Schema>
+    <xs:schema id="BD_x0020_STG_x0020_STEAM_x0020_RESEÑAS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="BD_x0020_STG_x0020_STEAM_x0020_RESEÑAS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="9788f1ec-51a3-4a70-9f3e-ee9df2fb8b94">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_DIM_Desarrollador" msprop:design-time-name="dfb1e7ef-a097-4619-8652-e4ef05a6cba0" msprop:DbTableName="DIM_Desarrollador" msprop:FriendlyName="DIM_Desarrollador" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Sk_Desarrollador" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="be5a0370-402f-4d36-b3f9-c358f36295db" msprop:DbColumnName="Sk_Desarrollador" msprop:FriendlyName="Sk_Desarrollador" type="xs:int" />
+                  <xs:element name="Nombre" msprop:design-time-name="7c9b5f28-666f-4095-9a96-93a09b981fb4" msprop:DbColumnName="Nombre" msprop:FriendlyName="Nombre">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="60" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DIM_Distribuidor" msprop:design-time-name="2727e5c2-00a4-4242-9ade-0a72990b9ee6" msprop:DbTableName="DIM_Distribuidor" msprop:FriendlyName="DIM_Distribuidor" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Sk_Distribuidor" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="0163aff6-eda6-472f-b004-857459d69311" msprop:DbColumnName="Sk_Distribuidor" msprop:FriendlyName="Sk_Distribuidor" type="xs:int" />
+                  <xs:element name="Nombre" msprop:design-time-name="bcdd94d0-2cf4-4b62-9548-3d0e359cf410" msprop:DbColumnName="Nombre" msprop:FriendlyName="Nombre">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="60" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DIM_Genero" msprop:design-time-name="ca44aa55-91f1-4b1d-b3b2-c287d5bec357" msprop:DbTableName="DIM_Genero" msprop:FriendlyName="DIM_Genero" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Sk_Genero" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="eae629bb-128c-40ac-adff-2bb14ad50099" msprop:DbColumnName="Sk_Genero" msprop:FriendlyName="Sk_Genero" type="xs:int" />
+                  <xs:element name="Nombre" msprop:design-time-name="ecdf081b-d6db-42f9-97d4-1e78d5a82e92" msprop:DbColumnName="Nombre" msprop:FriendlyName="Nombre">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DIM_Tiempo" msprop:design-time-name="e69f617c-8fc7-4d88-901f-d3cfb3f5755b" msprop:DbTableName="DIM_Tiempo" msprop:FriendlyName="DIM_Tiempo" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Sk_Tiempo" msprop:design-time-name="ac7f80f3-2e1d-4eb1-ba1d-fd67f2972131" msprop:DbColumnName="Sk_Tiempo" msprop:FriendlyName="Sk_Tiempo" type="xs:int" />
+                  <xs:element name="Fecha" msprop:design-time-name="a75f8680-71b8-4757-b8c4-b99c1f52ab13" msprop:DbColumnName="Fecha" msprop:FriendlyName="Fecha" type="xs:dateTime" />
+                  <xs:element name="Anio" msprop:design-time-name="fc56bc14-8641-4a69-b4e3-150586e4c502" msprop:DbColumnName="Anio" msprop:FriendlyName="Anio" type="xs:short" />
+                  <xs:element name="Mes" msprop:design-time-name="9b6f11a7-7ae6-4104-bb8d-1f978b101b88" msprop:DbColumnName="Mes" msprop:FriendlyName="Mes">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NumMesAnio" msprop:design-time-name="b087083e-169f-44d5-bb82-8bb773090261" msprop:DbColumnName="NumMesAnio" msprop:FriendlyName="NumMesAnio" type="xs:short" />
+                  <xs:element name="NumDiaSemana" msprop:design-time-name="aa711755-68f7-486e-abc6-410e754334d1" msprop:DbColumnName="NumDiaSemana" msprop:FriendlyName="NumDiaSemana" type="xs:short" />
+                  <xs:element name="NumDiaMes" msprop:design-time-name="cb4e5413-51a8-4777-a1f6-4c0ca29b4156" msprop:DbColumnName="NumDiaMes" msprop:FriendlyName="NumDiaMes" type="xs:short" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DIM_Videojuego" msprop:design-time-name="23c89d53-74b8-49d1-ba59-d8cd38ed0053" msprop:DbTableName="DIM_Videojuego" msprop:FriendlyName="DIM_Videojuego" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Sk_Videojuego" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="310877bd-4d1f-4167-84ad-c77d70d6c636" msprop:DbColumnName="Sk_Videojuego" msprop:FriendlyName="Sk_Videojuego" type="xs:int" />
+                  <xs:element name="Titulo" msprop:design-time-name="b1540662-d30d-41b8-9696-4ad45c351f82" msprop:DbColumnName="Titulo" msprop:FriendlyName="Titulo">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_FACT_Reseña" msprop:design-time-name="b793f4c1-001c-4e5b-8b17-5e67747c2c8a" msprop:DbTableName="FACT_Reseña" msprop:FriendlyName="FACT_Reseña" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Sk_Genero" msprop:design-time-name="7aa5e449-6bc5-4a9d-957b-0539aa3fef53" msprop:DbColumnName="Sk_Genero" msprop:FriendlyName="Sk_Genero" type="xs:int" />
+                  <xs:element name="Sk_Desarrollador" msprop:design-time-name="65a3ef5f-c3d4-4c9a-823a-3aca46a0c176" msprop:DbColumnName="Sk_Desarrollador" msprop:FriendlyName="Sk_Desarrollador" type="xs:int" />
+                  <xs:element name="Sk_Distribuidor" msprop:design-time-name="1d64f412-cb80-4fb8-b4c5-8660dea48d74" msprop:DbColumnName="Sk_Distribuidor" msprop:FriendlyName="Sk_Distribuidor" type="xs:int" />
+                  <xs:element name="Sk_Videojuego" msprop:design-time-name="6b50a4e8-51bf-4b46-bb7e-cc8d933992a0" msprop:DbColumnName="Sk_Videojuego" msprop:FriendlyName="Sk_Videojuego" type="xs:int" />
+                  <xs:element name="Sk_Tiempo" msprop:design-time-name="beb3f652-2143-4d83-8a45-f9efe2141f1e" msprop:DbColumnName="Sk_Tiempo" msprop:FriendlyName="Sk_Tiempo" type="xs:int" />
+                  <xs:element name="Minutos_Promedio_De_Juego" msprop:design-time-name="ae442b80-6185-47fd-a55d-b35dde884b29" msprop:DbColumnName="Minutos_Promedio_De_Juego" msprop:FriendlyName="Minutos_Promedio_De_Juego" type="xs:int" />
+                  <xs:element name="Valor_Reseñas_Promedio" msprop:design-time-name="e0935565-ddcb-42cf-babb-3254df9231c2" msprop:DbColumnName="Valor_Reseñas_Promedio" msprop:FriendlyName="Valor_Reseñas_Promedio" type="xs:decimal" />
+                  <xs:element name="Cantidad_Reseñas" msprop:design-time-name="7465254b-7913-4a20-a5fb-34621027ac9b" msprop:DbColumnName="Cantidad_Reseñas" msprop:FriendlyName="Cantidad_Reseñas" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DIM_Desarrollador" />
+          <xs:field xpath="Sk_Desarrollador" />
+        </xs:unique>
+        <xs:unique name="dbo_DIM_Distribuidor_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DIM_Distribuidor" />
+          <xs:field xpath="Sk_Distribuidor" />
+        </xs:unique>
+        <xs:unique name="dbo_DIM_Genero_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DIM_Genero" />
+          <xs:field xpath="Sk_Genero" />
+        </xs:unique>
+        <xs:unique name="dbo_DIM_Tiempo_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DIM_Tiempo" />
+          <xs:field xpath="Sk_Tiempo" />
+        </xs:unique>
+        <xs:unique name="dbo_DIM_Videojuego_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DIM_Videojuego" />
+          <xs:field xpath="Sk_Videojuego" />
+        </xs:unique>
+        <xs:keyref name="FK__FACT_Rese__Sk_Vi__300424B4" refer="dbo_DIM_Videojuego_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_Reseña" />
+          <xs:field xpath="Sk_Videojuego" />
+        </xs:keyref>
+        <xs:keyref name="FK__FACT_Rese__Sk_Ge__2D27B809" refer="dbo_DIM_Genero_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_Reseña" />
+          <xs:field xpath="Sk_Genero" />
+        </xs:keyref>
+        <xs:keyref name="FK__FACT_Rese__Sk_Di__2F10007B" refer="dbo_DIM_Distribuidor_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_Reseña" />
+          <xs:field xpath="Sk_Distribuidor" />
+        </xs:keyref>
+        <xs:keyref name="FK__FACT_Rese__Sk_De__2E1BDC42" refer="Constraint1">
+          <xs:selector xpath=".//dbo_FACT_Reseña" />
+          <xs:field xpath="Sk_Desarrollador" />
+        </xs:keyref>
+        <xs:keyref name="FK__FACT_Rese__Sk_Ti__30F848ED" refer="dbo_DIM_Tiempo_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_Reseña" />
+          <xs:field xpath="Sk_Tiempo" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <BD_x0020_STG_x0020_STEAM_x0020_RESEÑAS xmlns="" />
+  </Schema>
+</DataSourceView>

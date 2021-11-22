@@ -8,22 +8,22 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>VENTAS STEAM.cube</Name>
-      <FullPath>VENTAS STEAM.cube</FullPath>
+      <Name>BD STG STEAM VENTAS.cube</Name>
+      <FullPath>BD STG STEAM VENTAS.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>VENTAS STEAM.partitions</Name>
-          <FullPath>VENTAS STEAM.partitions</FullPath>
+          <Name>BD STG STEAM VENTAS.partitions</Name>
+          <FullPath>BD STG STEAM VENTAS.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
-      <Name>RESEÑAS STEAM.cube</Name>
-      <FullPath>RESEÑAS STEAM.cube</FullPath>
+      <Name>BD STG STEAM RESEÑAS.cube</Name>
+      <FullPath>BD STG STEAM RESEÑAS.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>RESEÑAS STEAM.partitions</Name>
-          <FullPath>RESEÑAS STEAM.partitions</FullPath>
+          <Name>BD STG STEAM RESEÑAS.partitions</Name>
+          <FullPath>BD STG STEAM RESEÑAS.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
@@ -50,44 +50,44 @@
       <FullPath>DIM Videojuego.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>DIM Tiempo 1.dim</Name>
-      <FullPath>DIM Tiempo 1.dim</FullPath>
+      <Name>DIM Tiempo Reseña.dim</Name>
+      <FullPath>DIM Tiempo Reseña.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>DIM Desarrollador 1.dim</Name>
-      <FullPath>DIM Desarrollador 1.dim</FullPath>
+      <Name>DIM Desarrollador Reseña.dim</Name>
+      <FullPath>DIM Desarrollador Reseña.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>DIM Distribuidor 1.dim</Name>
-      <FullPath>DIM Distribuidor 1.dim</FullPath>
+      <Name>DIM Distribuidor Reseña.dim</Name>
+      <FullPath>DIM Distribuidor Reseña.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>DIM Genero 1.dim</Name>
-      <FullPath>DIM Genero 1.dim</FullPath>
+      <Name>DIM Genero Reseña.dim</Name>
+      <FullPath>DIM Genero Reseña.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>DIM Videojuego 1.dim</Name>
-      <FullPath>DIM Videojuego 1.dim</FullPath>
+      <Name>DIM Videojuego Reseña.dim</Name>
+      <FullPath>DIM Videojuego Reseña.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
-      <Name>VENTAS STEAM.ds</Name>
-      <FullPath>VENTAS STEAM.ds</FullPath>
+      <Name>BD STG STEAM VENTAS.ds</Name>
+      <FullPath>BD STG STEAM VENTAS.ds</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>RESEÑAS STEAM.ds</Name>
-      <FullPath>RESEÑAS STEAM.ds</FullPath>
+      <Name>BD STG STEAM RESEÑAS.ds</Name>
+      <FullPath>BD STG STEAM RESEÑAS.ds</FullPath>
     </ProjectItem>
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
-      <Name>VENTAS STEAM.dsv</Name>
-      <FullPath>VENTAS STEAM.dsv</FullPath>
+      <Name>BD STG STEAM VENTAS.dsv</Name>
+      <FullPath>BD STG STEAM VENTAS.dsv</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>RESEÑAS STEAM.dsv</Name>
-      <FullPath>RESEÑAS STEAM.dsv</FullPath>
+      <Name>BD STG STEAM RESEÑAS.dsv</Name>
+      <FullPath>BD STG STEAM RESEÑAS.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Configurations>
@@ -96,25 +96,25 @@
       <Options>
         <ConnectionMappings>
           <ConfigurationSetting>
-            <Id>VENTAS STEAM</Id>
-            <Name>VENTAS STEAM</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=BRYAN-PC;Integrated Security=SSPI;Initial Catalog=VENTAS_STEAM</Value>
+            <Id>BD STG STEAM VENTAS</Id>
+            <Name>BD STG STEAM VENTAS</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=BRYAN-PC;Integrated Security=SSPI;Initial Catalog=BD_STG_STEAM_VENTAS</Value>
           </ConfigurationSetting>
           <ConfigurationSetting>
-            <Id>RESEÑAS STEAM</Id>
-            <Name>RESEÑAS STEAM</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=BRYAN-PC;Integrated Security=SSPI;Initial Catalog=RESEÑAS_STEAM</Value>
+            <Id>BD STG STEAM RESEÑAS</Id>
+            <Name>BD STG STEAM RESEÑAS</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=BRYAN-PC;Integrated Security=SSPI;Initial Catalog=BD_STG_STEAM_RESEÑAS</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
-            <Id>VENTAS STEAM</Id>
-            <Name>VENTAS STEAM</Name>
+            <Id>BD STG STEAM VENTAS</Id>
+            <Name>BD STG STEAM VENTAS</Name>
             <Value xsi:type="xsd:int">0</Value>
           </ConfigurationSetting>
           <ConfigurationSetting>
-            <Id>RESEÑAS STEAM</Id>
-            <Name>RESEÑAS STEAM</Name>
+            <Id>BD STG STEAM RESEÑAS</Id>
+            <Name>BD STG STEAM RESEÑAS</Name>
             <Value xsi:type="xsd:int">0</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>
