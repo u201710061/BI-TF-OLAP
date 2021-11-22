@@ -17,6 +17,16 @@
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
+    <ProjectItem>
+      <Name>RESEÑAS STEAM.cube</Name>
+      <FullPath>RESEÑAS STEAM.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>RESEÑAS STEAM.partitions</Name>
+          <FullPath>RESEÑAS STEAM.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
@@ -39,17 +49,45 @@
       <Name>DIM Videojuego.dim</Name>
       <FullPath>DIM Videojuego.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Tiempo 1.dim</Name>
+      <FullPath>DIM Tiempo 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Desarrollador 1.dim</Name>
+      <FullPath>DIM Desarrollador 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Distribuidor 1.dim</Name>
+      <FullPath>DIM Distribuidor 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Genero 1.dim</Name>
+      <FullPath>DIM Genero 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Videojuego 1.dim</Name>
+      <FullPath>DIM Videojuego 1.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>VENTAS STEAM.ds</Name>
       <FullPath>VENTAS STEAM.ds</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>RESEÑAS STEAM.ds</Name>
+      <FullPath>RESEÑAS STEAM.ds</FullPath>
+    </ProjectItem>
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
       <Name>VENTAS STEAM.dsv</Name>
       <FullPath>VENTAS STEAM.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>RESEÑAS STEAM.dsv</Name>
+      <FullPath>RESEÑAS STEAM.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Configurations>
@@ -62,11 +100,21 @@
             <Name>VENTAS STEAM</Name>
             <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=BRYAN-PC;Integrated Security=SSPI;Initial Catalog=VENTAS_STEAM</Value>
           </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>RESEÑAS STEAM</Id>
+            <Name>RESEÑAS STEAM</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=BRYAN-PC;Integrated Security=SSPI;Initial Catalog=RESEÑAS_STEAM</Value>
+          </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
             <Id>VENTAS STEAM</Id>
             <Name>VENTAS STEAM</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>RESEÑAS STEAM</Id>
+            <Name>RESEÑAS STEAM</Name>
             <Value xsi:type="xsd:int">0</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>
