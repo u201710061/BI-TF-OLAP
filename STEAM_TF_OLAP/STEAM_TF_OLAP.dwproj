@@ -50,24 +50,24 @@
       <FullPath>DIM Videojuego.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
+      <Name>DIM Videojuego Reseña.dim</Name>
+      <FullPath>DIM Videojuego Reseña.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
       <Name>DIM Tiempo Reseña.dim</Name>
       <FullPath>DIM Tiempo Reseña.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>DIM Desarrollador Reseña.dim</Name>
-      <FullPath>DIM Desarrollador Reseña.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>DIM Distribuidor Reseña.dim</Name>
-      <FullPath>DIM Distribuidor Reseña.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>DIM Genero Reseña.dim</Name>
       <FullPath>DIM Genero Reseña.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>DIM Videojuego Reseña.dim</Name>
-      <FullPath>DIM Videojuego Reseña.dim</FullPath>
+      <Name>DIM Distribuidor Reseña.dim</Name>
+      <FullPath>DIM Distribuidor Reseña.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Desarrollador Reseña.dim</Name>
+      <FullPath>DIM Desarrollador Reseña.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
